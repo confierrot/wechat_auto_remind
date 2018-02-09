@@ -10,7 +10,7 @@ from datetime import datetime,timedelta
 from time import sleep
 import thread
 msgQ = deque([])
-Names = [u'嘴里含木',u'困']
+Names = [u'嘴里含木',u'困']  # add your friends' nickname or remarkname here
 sendlist = []
 def input(msgQ):
     try:
