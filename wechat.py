@@ -75,7 +75,7 @@ def ParseCMD(timestamp,msg):
             elif t[5]:
                 minute = 30
             else:
-                minute - 0
+                minute = 0
                
             if t[1] == u'晚'and hour <= 12:
                 hour += 12
